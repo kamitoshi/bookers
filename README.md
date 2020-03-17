@@ -1,5 +1,8 @@
 # README
 
+## [start] 4-8 bookers
+アプリケーションの立ち上げと、コントローラーの作成
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
