@@ -15,12 +15,16 @@
  */
 *{
   font-family: verdana, arial, helvetica, sans-serif;
+  box-sizing: border-box;
 }
 body{
   margin:33px;
 }
 th, td{
   padding:10px;
+}
+li{
+  list-style: none;
 }
 .messages{
   margin-bottom:20px;
@@ -55,11 +59,36 @@ th, td{
   font-size:20px;
   margin:30px 0;
 }
+.form-box{
+  width:100%;
+}
 .form-box h4{
-  margin:15px 0 10px;
+  display:inline-block;
+  margin-top:10px;
+  padding:5px;
+}
+.form-box input, textarea{
+  display: block;
+  width:200px;
 }
 .button{
   margin-top:20px;
+  width:100px;
+}
+.button input{
+  width:100px;
+}
+.error-text{
+  width:500px;
+  padding:10px;
+  background-color:red;
+  text-align: center;
+}
+.errors{
+  width: 500px;
+  text-align:center;
+  padding:10px;
+  border: 2px solid red;
 }
 
 .show{
